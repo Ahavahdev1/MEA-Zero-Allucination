@@ -29,17 +29,6 @@ To measure structural resistance against cognitive drift, we ran an adversarial 
 
 ---
 
-## 📊 High-Performance Transaction Benchmark (NIST AES-256-GCM)
-
-Beyond cognitive anchoring, the engine incorporates a high-frequency cryptographic core optimized for ISO 20022 / financial messaging standards, validated under consumer-grade hardware (AMD Ryzen 7):
-
-| Banking Scenario | Batch Size | Total Execution Time | Real Throughput (TPS) | Average Latency / TX | Compliance Status |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **Normal Branch Operation** | 1,000 | 1.84 ms | **544,781 TPS** | 1.84 µs | ✅ NIST Compliant |
-| **Lunch Hour Volume Surge** | 5,000 | 8.39 ms | **596,154 TPS** | 1.68 µs | ✅ NIST Compliant |
-| **Black Friday / End-of-Month Stress** | 10,000 | 16.65 ms | **600,716 TPS** | 1.66 µs | ✅ NIST Compliant |
-
----
 
 ## 🛡️ Core Architectural Principles
 
